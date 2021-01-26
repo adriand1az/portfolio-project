@@ -57,19 +57,22 @@ body {
   width: 50vw;
   height: 50vh;
   line-height: 2;
-  font-size: 2rem;
-  padding-top: 14vh;
-  padding-left: 5vw;
+  font-size: 3rem;
+  padding-top: 25vh;
+  padding-left: 10vw;
 }
-
+.hero-content span {
+  color: #feb633;
+}
 .hero-content button {
-  border-radius: 50;
-  height: 50px;
-  width: 200px;
+  border-radius: 5px;
+  height: 75px;
+  width: 300px;
   background-color: #feb633;
   color: white;
   font-size: 1.25rem;
   font-weight: 500;
+  border: none;
 }
 
 .hero-content button:hover {
