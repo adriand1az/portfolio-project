@@ -50,7 +50,8 @@ body {
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 60vh;
+  height: 80vh;
+  width: 50vw;
 }
 
 .hero-content {
@@ -59,7 +60,7 @@ body {
   height: 50vh;
   line-height: 2;
   font-size: 3rem;
-  padding-top: 10vh;
+  padding-top: 30vh;
   padding-left: 8vw;
 }
 .hero-image {
@@ -199,5 +200,21 @@ body {
 /* Card section end */
 
 /* Projects Section */
-
+#projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* Projects section start */
+
+/* Contact form */
+#contact-me {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Contact form end */
