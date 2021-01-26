@@ -49,7 +49,7 @@ body {
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 50vh;
+  height: 75vh;
 }
 
 .hero-content {
@@ -58,8 +58,8 @@ body {
   height: 50vh;
   line-height: 2;
   font-size: 3rem;
-  padding-top: 25vh;
-  padding-left: 10vw;
+  padding-top: 10vh;
+  padding-left: 8vw;
 }
 .hero-content span {
   color: #feb633;
@@ -83,3 +83,54 @@ body {
   transition: 1s;
 }
 /* Hero Section End */
+
+/* About me section */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+}
+
+.about-me-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin: 0 10vw;
+}
+
+.about-me-info {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-size: 1.35rem;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+}
+.buttons button {
+  margin-top: 2vh;
+  margin-right: 5vw;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  background-color: #feb633;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: #54595f;
+  border: 2px solid #feb633;
+  color: black;
+  transition: 1s;
+}
+/* About me section end */
