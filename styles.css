@@ -49,7 +49,7 @@ body {
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 75vh;
+  height: 60vh;
 }
 
 .hero-content {
@@ -134,3 +134,27 @@ body {
   transition: 1s;
 }
 /* About me section end */
+
+/* Card Section Start */
+.services {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.services-hero {
+  margin: 10vh 0;
+}
+.services-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* Card section end */
