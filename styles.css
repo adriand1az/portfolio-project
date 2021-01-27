@@ -7,6 +7,27 @@ body {
   color: white;
 }
 
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.about-me-overlay {
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 50%; /* Full height (cover the whole page) */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+}
 /* Navbar */
 .navbar {
   display: grid;
@@ -95,6 +116,7 @@ body {
 /* Hero Section End */
 
 /* About me section */
+
 #about-me {
   display: flex;
   justify-content: center;
@@ -104,28 +126,31 @@ body {
 }
 
 .about-me-title {
+  width: 50vw;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  margin: 0 10vw;
 }
 
 .about-me-info {
+  height: 50vh;
   width: 50vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  justify-content: flex-end;
   font-size: 1.35rem;
   line-height: 1.6;
+
+  padding: 0 50px;
 }
 
 .buttons {
   display: flex;
 }
 .buttons button {
-  margin-top: 2vh;
+  margin-top: 6vh;
   margin-right: 5vw;
   border-radius: 5px;
   height: 50px;
@@ -215,11 +240,22 @@ body {
 
 .projects-container {
   display: flex;
-  height: 30vh;
-  width: 60vw;
+  height: 35vh;
+  width: 35vw;
   margin: auto;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
-
+.projects-container:hover {
+  /* Hidden by default */
+  width: 45%; /* Full width (cover the whole page) */
+  height: 45%; /* Full height (cover the whole page) */
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+  z-index: 2;
+  color: black;
+  transition: 1.25s;
+}
 .image-1 {
   background-image: url("./img/bankist-full-site-web.png");
   background-position: center;
