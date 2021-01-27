@@ -15,7 +15,8 @@ body {
   height: 10vh;
   align-items: center;
   position: fixed;
-  background-color: 	#696969;
+  background-color:#696969;
+  z-index: 3;
 }
 .navbar-brand a {
   font-size: 4.5rem;
@@ -101,8 +102,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 65vh;
   width: 100vw;
+  background-color: #696969;
 }
 
 .about-me-title {
@@ -112,6 +114,10 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+}
+
+.about-me-title h2{
+    border-bottom: 2px solid #feb633;
 }
 
 .about-me-info {
@@ -170,6 +176,7 @@ body {
 .services-hero h2 {
   letter-spacing: 2px;
   font-size: 4rem;
+  border-bottom: #feb633 2px solid;
 }
 .services-hero span {
   font-size: 1.5rem;
@@ -264,16 +271,22 @@ body {
   align-items: center;
 }
 
+.contact-info{
+  display: flex;
+  width: 50vw;
+  align-items: evenly;
+}
+
 .contact-form form {
   display: flex;
   flex-direction: column;
   height: 80vh;
-  width: 100vw;
+  width: 85vw;
   align-items: center;
   justify-content: space-evenly;
 }
 .contact-form form input {
-  height: 2vh;
+  height: 4vh;
   width: 30vw;
 }
 /* Contact form end */
