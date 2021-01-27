@@ -159,12 +159,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
   line-height: 1.5;
   width: 50vw;
 }
 .services-hero h2 {
   letter-spacing: 2px;
+  font-size: 4rem;
+}
+.services-hero span {
+  font-size: 1.5rem;
 }
 .services-cards {
   display: grid;
@@ -197,6 +200,7 @@ body {
   transform: scale(1.035);
   transition: 1s;
 }
+
 /* Card section end */
 
 /* Projects Section */
@@ -206,8 +210,34 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
 }
-/* Projects section start */
+
+.projects-container {
+  display: flex;
+  height: 30vh;
+  width: 60vw;
+  margin: auto;
+}
+
+.image-1 {
+  background-image: url("./img/bankist-full-site-web.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-2 {
+  background-image: url("./img/museum-of-candy.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hidden {
+  display: none;
+}
+/* Projects section end */
 
 /* Contact form */
 #contact-me {
