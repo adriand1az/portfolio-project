@@ -2,7 +2,18 @@ body{
   background-color: #111;
   color: white;
 }
-
+.btn{
+  background-color: #0f0;
+  font-weight: 500;
+  letter-spacing: 1.35px;
+  color: white;
+  box-sizing: border-box;
+}
+.btn:hover{
+  background-color: #333 ;
+  color: #0f0;
+  border: 1.5px solid #0f0;
+}
 /* Navbar */
 .navbar-brand{
   font-size: 2rem;
@@ -48,21 +59,12 @@ body{
 .hero-content span{
   color: #0f0;
 }
-.hero-content button{
+.hero-content .btn{
   margin-top: 25px;
-  background-color: #0f0;
-  font-weight: 500;
-  letter-spacing: 1.35px;
-  color: white;
   width: 13rem;
   height: 3.5rem;
 }
-.hero-content button:hover{
-background-color: #333 ;
-color: #0f0;
-border: 1.5px solid #0f0;
 
-}
 
 .hero-image img{
   box-sizing: border-box;
@@ -79,6 +81,7 @@ border: 1.5px solid #0f0;
   justify-content: center;
   position: relative;
   top: 50vh;
+  right: 10vw;
 }
 .about-me-title h2{
     font-size: 3.5rem;
@@ -88,7 +91,15 @@ border: 1.5px solid #0f0;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 40vh;
+  top: 30vh;
+}
+.about-me-info p{
+  font-size: 1.45rem;
+}
+.about-me-info .btn{
+  margin-top: 25px;
+  margin-right: 50px;
+  width: auto;
 
 }
 
