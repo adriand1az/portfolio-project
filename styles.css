@@ -77,8 +77,21 @@ border: 1.5px solid #0f0;
 .about-me-title{
   display: flex;
   justify-content: center;
-  align-items: center;
+  position: relative;
+  top: 50vh;
 }
+.about-me-title h2{
+    font-size: 3.5rem;
+}
+.about-me-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 40vh;
+
+}
+
   
 
 /* Layout */
