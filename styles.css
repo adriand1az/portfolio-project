@@ -102,8 +102,22 @@ body{
   width: auto;
 
 }
-
-  
+/* Tools */
+#tools{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tools-hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#tools .row{
+  margin-top: 10vh ;
+}
 
 /* Layout */
 .container{
