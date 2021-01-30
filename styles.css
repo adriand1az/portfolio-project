@@ -118,6 +118,9 @@ body{
 #tools .row{
   margin-top: 10vh ;
 }
+.fab{
+  cursor: pointer;
+}
 
 /* Layout */
 .container{
