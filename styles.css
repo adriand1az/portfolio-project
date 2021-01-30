@@ -1,6 +1,7 @@
 body{
   background-color: #111;
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 .btn{
   background-color: #0f0;
@@ -15,6 +16,7 @@ body{
   border: 1.5px solid #0f0;
 }
 /* Navbar */
+
 .navbar-brand{
   font-size: 2rem;
   color: #0f0 !important;
