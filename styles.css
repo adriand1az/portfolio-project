@@ -4,7 +4,7 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .btn{
-  background-color: #0f0;
+  background-color: #feb633;
   font-weight: 500;
   letter-spacing: 1.35px;
   color: white;
@@ -12,14 +12,14 @@ body{
 }
 .btn:hover{
   background-color: #333 ;
-  color: #0f0;
-  border: 1.5px solid #0f0;
+  color:#feb633;
+  border: 1.5px solid #feb633;
 }
 /* Navbar */
 
 .navbar-brand{
   font-size: 2rem;
-  color: #0f0 !important;
+  color: #feb633 !important;
   padding-left: 7%;
 }
 .navbar-nav{
@@ -32,8 +32,8 @@ body{
 }
 
 .nav-link:hover{
-  color: #0f0 !important;
-  border-bottom: 1.5px solid #0f0;
+  color: #feb633 !important;
+  border-bottom: 1.5px solid #feb633;
 
 }
 .navbar-nav{
@@ -59,7 +59,7 @@ body{
   font-size: 1.5rem;
 }
 .hero-content span{
-  color: #0f0;
+  color: #feb633;
 }
 .hero-content .btn{
   margin-top: 25px;
@@ -72,7 +72,6 @@ body{
   box-sizing: border-box;
   position: relative;
   top: 200px;
-
   height: auto;
   max-width: 100%;
 }
